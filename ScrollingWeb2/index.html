@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scolling Website 2</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Linking CSS -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- Navbar -->
+	<div id="sidhuvud">
+		<div class="navbar-logo">
+			<img src="media/logo-placeholder-image.png">
+		</div>
+		<div class="navbar-links">
+				<a href="#page-header" class="links">Home</a>
+				<a href="#aboutus" class="links">About Us</a>
+				<a href="#maps" class="links">Location</a>
+				<a href="#reviews" class="links">Reviews</a>
+				<a href="#contactus" class="links">Contact Us</a>
+		</div>
+	</div>
+
+	<!-- Background 1 -->
+	<div class="background1">
+		<h1 id="page-header">Company Name</h1>
+	</div>
+
+	<!-- About Us -->
+	<div class="background2">
+		<h2 id="aboutus">About Us</h2>
+		<div class="aboutus-container">
+			<p class="aboutus-text">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam mi id odio viverra faucibus. Suspendisse viverra aliquet quam sit amet ultrices. Quisque non nisi eleifend, tempus ex sed, placerat metus. Quisque eget rhoncus magna. Donec fermentum massa vitae aliquet sodales. Maecenas nec dui mi. Donec venenatis nibh id mi placerat, ut ornare libero consectetur. Mauris mattis consectetur hendrerit.
+				<br>
+				Sed eu pretium ligula. Suspendisse iaculis ligula dolor, at convallis est maximus vitae. Quisque aliquet dictum lectus, ut porta erat iaculis nec. Phasellus et euismod tellus. Donec nunc diam, tincidunt vitae aliquam non, commodo at nunc. Vivamus congue, eros vitae varius euismod, nisl quam tincidunt augue, at rhoncus augue elit quis lacus. Vivamus sit amet metus accumsan felis hendrerit elementum. Suspendisse sollicitudin pretium sapien et blandit. Vivamus venenatis mauris eu lectus molestie, vitae ullamcorper metus imperdiet. Sed tempor velit ac tortor cursus tempus.
+			</p>
+			<img src="media/images.jpg" class="aboutus-img">
+		</div>
+	</div>
+
+	<!-- Location -->
+	<div class="background3">
+		<h2 id="maps">Location</h2>
+		<iframe src="https://storage.googleapis.com/maps-solutions-ikktohasia/locator-plus/065g/locator-plus.html" width="70%" height="80%" style="border:0;" loading="lazy">
+		</iframe>
+    </div>
+
+    <!-- Reviews -->
+	<div class="background3">
+   		<h2 id="reviews">Reviews</h2>
+   		<div class="review">
+   			<div class="review-box1">
+   				<img src="media/logo-placeholder-image.png">
+   				<h3>John Doe</h3>
+   				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   				consequat.</p>
+   			</div>
+
+   			<div class="review-box2">
+   				<img src="media/logo-placeholder-image.png">
+   				<h3>John Doe</h3>
+   				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   				consequat.</p>
+   			</div>
+
+   			<div class="review-box3">
+   				<img src="media/logo-placeholder-image.png">
+   				<h3>John Doe</h3>
+   				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   				consequat.</p>
+   			</div>
+   		</div>
+    </div>
+
+    <!-- Email Form -->
+    <div class="background4">
+		<h2 id="contactus">Contact Us</h2>
+		<p class="contactus-notice">*The website needs to be hosted on a webserver for this to work</p>
+    	<div class="email-box">
+    		<form target="_blank" action="https://formsubmit.co/lucas.malmbergfransson@elev.ga.ntig.se" method="POST">
+    			<div class="form-group">
+    	  			<div class="form-row">
+    	    			<div class="col">
+    	      				<input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        				</div>
+        				<div class="col">
+        					<input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        				</div>
+      				</div>
+    			</div>
+    			<div class="form-group">
+        			<textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    			</div>
+    			<button type="submit" id="send-button">Send</button>
+  			</form>
+    	</div>
+    </div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<h3>Website created by Lucas</h3>
+		<p>Last update made 2023-10-26</p>
+	</div>
+</body>
+</html>
